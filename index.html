@@ -439,3 +439,11 @@ searchProduct();
 
 </body>
 </html>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#ffcc00">
+
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js");
+  }
+</script>
